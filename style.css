@@ -1,0 +1,42 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: monospace;
+}
+.center {
+	text-align: center;
+}
+.navigation {
+	margin: 20px 0;
+}
+.navigation a {
+	background-color: #ccc;
+	padding: 10px 30px;
+	margin-right: 10px;
+	text-decoration: none;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 600;
+	border: 2px solid #000;
+    border-radius: 50px;
+}
+.navigation a.active {
+	background-color: #000;
+}
+.img-wrap img {
+	width: 300px;
+	height: 200px;
+	max-width: 100%;
+}
+.img-wrap {
+	display: inline-block;
+}
+
+@media (max-width: 768px){
+
+	.img-wrap img {
+		width: 150px;
+		height: 100px;
+		max-width: 100%;
+	}
+}
